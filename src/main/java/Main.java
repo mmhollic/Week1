@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        // Even though main is static and is the entry point, we can still instantiate an object of this class to call its non-static methods
         Main mainObject=new Main();
         mainObject.calculatorGo();
         mainObject.calculateDosages();
